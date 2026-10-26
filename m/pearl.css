@@ -1,4 +1,8 @@
 /* Pearl/silver surface study; all application and tracking logic unchanged. */
+.eligibility-note{margin-top:14px;padding:10px 12px;border-left:3px solid #316bdd;border-radius:0 10px 10px 0;background:#eaf1fc;color:#315079;line-height:1.65}
+.eligibility-note span{display:block;font-size:13px;font-weight:600}
+.eligibility-note strong{display:block;color:#2455b7;font-size:17px;font-weight:800}
+@media(min-width:1000px){.eligibility-note{max-width:350px;margin-top:22px;padding:14px 16px}.eligibility-note span{font-size:14px}.eligibility-note strong{font-size:21px}}
 :root{--ink:#23354c;--muted:#64758a;--surface:#f9fafc;--page:#e9edf2;--line:#d8e0e9;--soft:#eef1f6;--blue:#285dc6;--blue-dark:#254b90;--cyan:#dce8fd;--navy:#203c68;--gold:#dce8fd;--danger:#ba3749;color-scheme:light}
 html,body,body:has(#calculator:not([hidden])){background:#eceff3;color:#23354c}
 body{background:linear-gradient(135deg,#f6f7f9,#e5eaf0)}
